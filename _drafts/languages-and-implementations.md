@@ -23,6 +23,56 @@ snip:   What are programming languages and how do they work?
 
 ## 1. What's "Programming"?
 
+Let's start by clarifying what this blog post will discuss.
+
+When people talk about "programming", many tend to have this image
+of something incredibly difficult, that only some selected few would be
+able to understand. "You have to remember all of those codes, right?"
+they will say. "I don't think I'd like coding."
+
+![](/files/2017/11/pl1.png)
+*The stereotypical coder, staring at black screens with incomprehensible codes all day*
+{: .centred-image }
+
+But you most likely have been programming without knowing it. Yes, you.
+People just don't *call* it programming. They say they're "setting up
+a spreadsheet". Or "recording a macro". Or "tweaking my blog". Or
+"creating this survey on Google Forms".
+
+> "Programming is a way of teaching the computer how to do something."
+{: .highlight-paragraph .pull-in }
+
+That's all programming. We can think of programming as "a way of teaching
+the computer how to do something". When you make a spreadsheet to track
+the amount of hours you've worked in that art commission, *that's programming*.
+You're really teaching the computer how track those hours for you. You could
+always just do it all by hand, of course. But that'd take more time, and would
+be more error prone.
+
+"I didn't write any code," you protest. Indeed. But programming has never
+been about "codes". It's all about communicating with the computer. 
+Sure, the usual "code" is one way to do that. But just like English isn't
+the only way of communicating with your friends, "code" isn't the only
+way of communicating with the computer. In his [The Future of Programming](https://vimeo.com/71278954)
+talk, Bret Victor describes many of these different ways of programming.
+[Alan Kay gave many similar talks](https://www.youtube.com/watch?v=BbwOPzxuJ0s).
+
+
+## 2. Programming and Languages
+
+Programming is about communication, and one way of communicating is by
+using languages. Indeed, we chat with our friends, read, and watch things in
+some language. Most of which are natural languages like English, or Japanese, 
+or Libras (Brazilian Sign Language). Sometimes we communicate in constructed
+languages. When we discuss set theory, the mathematical notation is a
+constructed language.
+
+
+
+
+
+
+
 We can see "programming" as "a way of making the computer do things for you". 
 For example, you may want to share your photos on your Instagram and Twitter account.
 "Sharing your photos to your followers" is what you want to happen, but this is
