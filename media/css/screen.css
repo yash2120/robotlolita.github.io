@@ -1573,7 +1573,8 @@ a:hover {
   margin: 0;
   line-height: 1.6em;
 }
-.textual-content .highlight,
+.textual-content div.highlight,
+.textual-content figure.highlight,
 .textual-content pre.src,
 .textual-content .simple-code {
   margin: 2em 0;
@@ -1585,7 +1586,8 @@ a:hover {
   line-height: 22px;
   display: block;
 }
-.textual-content .highlight,
+.textual-content div.highlight,
+.textual-content figure.highlight,
 .textual-content .highlight pre,
 .textual-content .highlight code,
 .textual-content .simple-code,
@@ -1602,8 +1604,9 @@ a:hover {
 .textual-content .simple-code code {
   padding: 0;
 }
-.textual-content .highlight {
-  border-collapse: collapse;
+.textual-content div.highlight,
+.textual-content figure.highlight,
+.textual-content border-collapse: collapse {
   border: 1px solid #ecf0f1;
   border-left-width: 2px;
   font-size: 16px;
@@ -1612,26 +1615,38 @@ a:hover {
   font-family: monospace;
   margin: 2em 0;
 }
-.textual-content .highlight td {
+.textual-content div.highlight td,
+.textual-content figure.highlight td,
+.textual-content border-collapse: collapse td {
   vertical-align: top;
   padding: 0.5em;
 }
-.textual-content .highlight td.gutter {
+.textual-content div.highlight td.gutter,
+.textual-content figure.highlight td.gutter,
+.textual-content border-collapse: collapse td.gutter {
   background: #fff;
   width: 20px;
   text-align: right;
   border-right: 1px solid #ecf0f1;
 }
-.textual-content .highlight td.gutter code,
-.textual-content .highlight td.gutter pre {
+.textual-content div.highlight td.gutter code,
+.textual-content figure.highlight td.gutter code,
+.textual-content border-collapse: collapse td.gutter code,
+.textual-content div.highlight td.gutter pre,
+.textual-content figure.highlight td.gutter pre,
+.textual-content border-collapse: collapse td.gutter pre {
   background-color: #fff;
   color: #bdc3c7;
 }
-.textual-content .highlight td.code {
+.textual-content div.highlight td.code,
+.textual-content figure.highlight td.code,
+.textual-content border-collapse: collapse td.code {
   border-left: 1px solid #ecf0f1;
   background: #fcfcfc;
 }
-.textual-content .highlight td.code .highlight {
+.textual-content div.highlight td.code .highlight,
+.textual-content figure.highlight td.code .highlight,
+.textual-content border-collapse: collapse td.code .highlight {
   padding: 0 0 0 0.5em;
   margin: 0;
   border: none;
@@ -1673,8 +1688,8 @@ a:hover {
   clear: both;
 }
 .textual-content .side-description {
-  color: #777;
-  padding: 20px 0;
+  color: #999;
+  padding: 40px 0;
 }
 .textual-content .pull-left {
   margin: 0.5em 1em 1em -100px;

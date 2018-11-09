@@ -1,6 +1,8 @@
 name: "Quils in Space"
 highlighter: rouge
 markdown: kramdown
+kramdown:
+  input: GFM
 exclude:
 - node_modules
 - vendor
