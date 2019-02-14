@@ -843,3 +843,69 @@
   font-size: 0.9rem;
   text-transform: uppercase;
 }
+
+/** NEW ARTICLES **/
+.rl-article {
+  padding: 3rem;
+  max-width: 1360px;
+  margin: 0 auto;
+}
+
+.rl-article-heading {
+  max-width: 960px;
+  margin-bottom: 5rem;
+  padding-bottom: 5rem;
+  border-bottom: 5px solid #f3f3f3;
+}
+
+.rl-article-meta {
+  color: #999;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  margin-bottom: -0.5rem;
+}
+
+.rl-article-title {
+  font-size: 3rem;
+  font-family: "PT Sans Caption", sans-serif;
+  letter-spacing: -0.02rem;
+}
+
+.rl-article-snip {
+  color: #777;
+  font-size: 1.5rem;
+}
+
+.rl-article-content {
+  max-width: 920px;
+  font-family: 'Lora', serif;
+  font-size: 20px;
+}
+
+.rl-content p {
+  margin-bottom: 1.5rem;
+}
+
+.rl-content h2 {
+  font-family: 'PT Sans Caption', sans;
+  font-size: 2.3rem;
+  font-weight: 700;
+  margin: 1.5rem 0 1rem 0;
+  letter-spacing: -0.02rem;
+}
+
+.rl-content div.highlighter-rouge {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background: #fafafa;
+  border-top: 5px solid #f3f3f3;
+  border-bottom: 2px solid #f3f3f3;
+}
+
+.rl-content div.highlighter-rouge pre {
+  background: #fafafa;
+}
+
+.rl-content .equation {
+  margin: 2em 0;
+}
