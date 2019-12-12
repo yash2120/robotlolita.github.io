@@ -826,6 +826,9 @@
   font-size: 1.8rem;
   letter-spacing: -0.02rem;
 }
+.rl-topic-name a {
+  color: #4a4a4a;
+}
 
 .rl-topic-link {
   display: block;
@@ -917,7 +920,8 @@
   font-size: 1.2rem;
 }
 
-.rl-topic-page .rl-topic-posts {
+.rl-topic-page .rl-topic-posts,
+.rl-topic-page .rl-topic-series-posts {
   margin-top: 5rem;
 }
 
